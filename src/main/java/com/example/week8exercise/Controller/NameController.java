@@ -1,4 +1,4 @@
-package com.example.week8exercise.api;
+package com.example.week8exercise.Controller;
 
 import com.example.week8exercise.DTO.Age;
 import com.example.week8exercise.DTO.Gender;
@@ -78,6 +78,5 @@ public class NameController {
                 .doOnError(e-> System.out.println("UUUPS : "+e.getMessage()));
         return slowResponse;
     }
-
 
 }
